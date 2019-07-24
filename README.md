@@ -1,3 +1,2 @@
 # MildWeather
-学习的案例
-仿郭神的天气demo
+学习郭神的天气demo
