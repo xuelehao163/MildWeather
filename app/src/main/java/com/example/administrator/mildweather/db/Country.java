@@ -13,7 +13,7 @@ public class Country extends DataSupport{
 
     private String countryName;
 
-    private int weatherId;//天气id
+    private String weatherId;//天气id
 
     private int cityId;//市id;市县的关联
 
@@ -33,11 +33,11 @@ public class Country extends DataSupport{
         this.countryName = countryName;
     }
 
-    public int getWeatherId() {
+    public String getWeatherId() {
         return weatherId;
     }
 
-    public void setWeatherId(int weatherId) {
+    public void setWeatherId(String weatherId) {
         this.weatherId = weatherId;
     }
 
