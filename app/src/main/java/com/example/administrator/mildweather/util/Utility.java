@@ -50,7 +50,7 @@ public class Utility {
                     City city=new City();
                     city.setCityName(cityObject.getString("name"));
                     city.setCityCode(cityObject.getInt("id"));
-                    city.setPrivinceId(provinceId);
+                    city.setProvinceId(provinceId);
                     city.save();
                 }
                 return true;
